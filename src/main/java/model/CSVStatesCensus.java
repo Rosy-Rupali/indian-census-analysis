@@ -1,10 +1,10 @@
-/************************************************************
- * Purpose : To perform required operations on CSV data
+/************************************************************************
+ * Purpose : Pojo model for State census CSV file
+ * Entries in state code CSV file will be made as objects of this class
  * @author Rosy Rupali
- * @Version 1.0
- * @since 30-06-2021
- *
- ************************************************************/
+ * @Since 30-06-2021
+ * @Version 1.1
+ *********************************************************************/
 package model;
 
 import com.opencsv.bean.CsvBindByName;
@@ -29,37 +29,4 @@ public class CSVStatesCensus {
 	public CSVStatesCensus() {
 
 	}
-
-	public String getState() {
-		return state;
-	}
-
-	public void setState(String state) {
-		this.state = state;
-	}
-
-	public double getPopulation() {
-		return population;
-	}
-
-	public void setPopulation(double population) {
-		this.population = population;
-	}
-
-	public double getAreaPerSqKm() {
-		return areaPerSqKm;
-	}
-
-	public void setAreaPerSqKm(double areaPerSqKm) {
-		this.areaPerSqKm = areaPerSqKm;
-	}
-
-	public double getDensityPerSqKm() {
-		return densityPerSqKm;
-	}
-
-	public void setDensityPerSqKm(double densityPerSqKm) {
-		this.densityPerSqKm = densityPerSqKm;
-	}
-
 }
